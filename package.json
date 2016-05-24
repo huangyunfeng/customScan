@@ -1,0 +1,21 @@
+{
+      "name": "cordova-plugin-customScan",    // plugin名称
+      "version": "1.0.0",                 // 版本号
+      "description": "Cordova customScan Plugin",   // plugin描述
+      "cordova": {
+        "id": "cordova-plugin-customScan",    // plugin的id，这个很重要。要和plugin目录名一致
+        "platforms": [                    // 插件支持的平台
+          "android",                      // 该插件支持android
+        ]
+      },
+      "repository": {                     // 远程库地址
+        "type": "git",
+        "url": "https://github.com/huangyunfeng/customScan"
+      },
+      "keywords": [                       // 用于在cordova plugin search被查找出来
+        "cordova",
+        "customScan"
+      ],
+      "author": "534134816@qq.com",        // 作者
+      "license": "Apache 2.0"             // 开源协议
+    }
